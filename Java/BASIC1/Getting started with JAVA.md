@@ -23,8 +23,8 @@ c++ limitation
 - support Dynamic-loading
 
 ## About JVM
-JVM | java virtual machine 
-general application -> OS -> HW
-* Java applicaiton -> JVM -> OS -> HW
+JVM | java virtual machine
 
+- general application -> OS -> HW
+- **Java applicaiton -> JVM -> OS -> HW**
 
