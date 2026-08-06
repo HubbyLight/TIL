@@ -1,7 +1,7 @@
 # The Basic
 ## what's JAVA?
 Developed by Sun Microststems (19996,jan)
-**OS independenㅅ**
+**OS independent**
 
 ## The history
 [1991] Started from Oak language
