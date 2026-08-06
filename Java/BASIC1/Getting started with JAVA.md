@@ -5,9 +5,13 @@ Developed by Sun Microststems (19996,jan)
 
 ## The history
 [1991] Started from Oak language
+
 aimed to develop sw for the electric product
+
 c++ limitation
+
 [1995] Hot java
+
 [1996] published
 
 ##  JAVA feature
