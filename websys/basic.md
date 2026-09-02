@@ -93,3 +93,11 @@ The binary value is exact by definition; the decimal one is rounded for convenie
 
 ## Boolean algebra
 > not A -> $\bar{A}$ $A'$
+
+> boolean table  
+> <img width="1417" height="918" alt="image" src="https://github.com/user-attachments/assets/b6d8b1ea-4d6a-472f-91c7-afc7d56891a4" />  
+> src : (https://youtu.be/lKqTSBKmWA4)  
+> . . .  
+> https://youtu.be/lKqTSBKmWA4?si=MD-5EwQ6dUQOaVaP  
+> https://youtu.be/5NGKbiA04Cw?si=KgWuq0X7NKLcneHX
+
