@@ -30,6 +30,35 @@
 
 ### Software
 
+**OS | Operating System**  
+The programs that control, supervise, and support a computer system's hardware and application software  
+~~without OS, computer can not work at all~~
+
+**Main function of OS**
+- manage hardware to achieve the best use and performance by the application SW
+ > scheduling of resources
+ > excute application SW on HW device
+- provide user-friendly interfaces
+- provides valuable services for the users
+ > sharing program data
+ > recovering error
+
+**OS components**  
+- processor manager  
+> control operation of CPU  
+> Includes Scheduler that arranges the execution of program  
+- memory manager  
+> control data storage in main memory (RAM)  
+- file manager  
+> Manages the files system on secondary storage - directories and files  
+- device manager  
+> coordinate peripheral device  
+
+**Interface**
+- GUI | Graphic user interface
+> Based on WIMPS (windos, Icons, Menus and pointer)
+- CLI | command-line interface
+> 
 ## ASCII
 **American Standard Code of Information Interchange**  
 
