@@ -34,6 +34,15 @@
 The programs that control, supervise, and support a computer system's hardware and application software  
 ~~without OS, computer can not work at all~~
 
+**Types of OS**
+- Application SW  
+> users perform various task  
+
+- System SW  
+> The program allows users to manage hard ware  
+> execute application sw, manage files and data  
+> e.g OS, langyage compiler  
+
 **Main function of OS**
 - manage hardware to achieve the best use and performance by the application SW
  > scheduling of resources
