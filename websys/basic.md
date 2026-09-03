@@ -43,6 +43,8 @@ The programs that control, supervise, and support a computer system's hardware a
 > execute application sw, manage files and data  
 > e.g OS, langyage compiler  
 
+. . .  
+
 **Main function of OS**
 - manage hardware to achieve the best use and performance by the application SW
  > scheduling of resources
@@ -51,6 +53,8 @@ The programs that control, supervise, and support a computer system's hardware a
 - provides valuable services for the users
  > sharing program data
  > recovering error
+
+. . .
 
 **OS components**  
 - processor manager  
@@ -63,11 +67,13 @@ The programs that control, supervise, and support a computer system's hardware a
 - device manager  
 > coordinate peripheral device  
 
+. . .
+
 **Interface**
 - GUI | Graphic user interface
 > Based on WIMPS (windos, Icons, Menus and pointer)
 - CLI | command-line interface
-> 
+
 ## ASCII
 **American Standard Code of Information Interchange**  
 
