@@ -1,5 +1,6 @@
 # C 자료구조
-**데이터의 구조를 조작**
+**데이터의 구조를 조작**  
+26.9.14/ 9.16
 ## 선형 자료구조, 비선형 자료구조
 ### 선형 자료구조 
 - 배열 (array) 
@@ -43,3 +44,56 @@ struct Node (
 > 한번 선언하면 끝
 
 _26.09.14 구조체, 포인터 복습_
+
+## 구조체  
+### 자기참조구조체와 외부참조구조체  
+#### 외부참조 구조체  
+``` c
+struct point {
+  int x;
+  int y;
+}
+
+struct student {
+  char name [15];
+  struct point* p;
+};
+
+int main(void) {
+  struct student std1 = {"Kim", NULL };
+  struct student std2 = {"Lee", NULL };
+
+  struct point p1 = {10,20};
+  struct point p2 = {30,40};
+
+  std1.p = &p1;
+  std2.p = &p2;
+};
+```
+-> : 포인터가 가리키는 구조체의 멤버에 접근  
+
+## linkedList | 연결자료 구조
+1. 노드의 구조    
+  [ 요소 (data filed), 주소 ] 로 이루어진 단위 --> node    
+  [data | link]    
+  [ A | B* ] -> [B | C*] -> [C | NULL]    
+  세개의 노드의 구조체 이름은 같다. (자기 참조 구조체)  
+<img width="1950" height="1046" alt="KakaoTalk_20260916_204437506" src="https://github.com/user-attachments/assets/4f9fad2b-817a-4813-9ef4-af209a5d4acf" />   
+노드의 구조체를 다음과 같이 정의할 수 있다.
+
+자기참조구조체 
+``` c
+struct Node {
+  char data[4];
+  struct Node* link;
+};
+```
+
+[week] ---> 헤더노드 (더미)  
+: 실질적인 노드에 포함을 하지 않는다
+
+### 연결 리스트에 새로운 노드를 삽입하는 순서
+1. 삽입할 노드를 준비 (생성)
+2. 새 노드의 데이터 필드에 값을 저장
+3. 새 노드의 주소를 저장
+4. 새롭게 삽입할 노드를 연결한다
