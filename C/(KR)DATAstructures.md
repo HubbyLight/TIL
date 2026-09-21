@@ -166,3 +166,37 @@ prev [월 | 170] ---- next [금 | 300] (200)
 2. 변수로는 topx   
 3. 스택에 데이터를 삽입할 수 있는지 확인 하는 함수 -> isFull()   
 4. 스택에 데이터를 삭제할 수 있는지 확인 하는 함수 -> isEmpty()    
+
+
+stack --> LIFO
+- push() --> 새로운 원고를 스택의 맨 위에 추가한다
+- pop() --> 스택의 맨 ㅜ이에 있는 원소를 제거하고 반환 한다
+- 스택의 맨위에
+
+```
+stack (
+  integer : array-size
+  integer : top 
+  arrayof value : array
+)
+```
+top 초기값 -1
+
+stack에 데이터를 삽입
+
+ push (1.stack : s,type : value) {
+  1. 데이터를 stack에 삽입하기 전에 공가닝 존재하는지 확인
+  대표적인 함수 isFull()
+  IF s.top == s.array_size - 1
+데이터를 삽입할 수 없다.
+  s.top = s.top + 1 --> ++top
+  s.array[s.top] = value
+
+pop(stack : s) : 
+  Type :value = null
+    1. 삭제할 데이터가 존재하는지 여부 확인
+    대표적인 함수 isEmppty()
+    IF s.top > -1:
+      value = s.array[s.top]
+      s.top = s.top -1(top--)
+    return value 
