@@ -380,3 +380,10 @@ dequeue(LQ)
 버블 정렬
     : 
 
+----  
+최대 힙의 노드 삽입 알고리즘
+insertHeap(heap, item)
+    if(n==heapSize) then
+        heapFull();
+    n <- n+11
+
